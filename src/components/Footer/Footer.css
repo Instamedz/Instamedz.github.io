@@ -1,0 +1,123 @@
+footer{
+  background: url("./rectangle-24.png");
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+  height: 245px;
+  padding:10px 10px;
+  max-width: 100vw;
+  color:white
+
+}
+footer > div{
+  min-width: 120px;
+  padding-top: 20px;
+}
+footer ul li a{
+  color:white
+}
+footer span{
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid white;
+  
+}
+.ft-container1 .social-container{
+margin-top: 7px;
+}
+.ft-container1{
+  width: 200px;
+}
+.ft-container1 img{
+  width: 100%;
+}
+.social-container p{
+  text-align: center;
+  margin: 0;
+  font-size: 17px;
+}
+.social-container .social-icons{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icons svg{
+  width: 35px;
+  height: 22px;
+}
+.list span svg, .list span button{
+  display: none;
+}
+.list span p{
+  font-size: 20px;
+    font-weight: 500;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+.list ul{
+  margin-top: 7px;
+}
+
+@media screen and (max-width:1000px){
+  footer{
+    flex-direction: column-reverse;
+    min-height: 245px;
+    height: auto;
+    position: relative;
+    z-index: 11;
+
+  }
+  footer ul{
+    /* display: none; */
+    margin: 0;
+  }
+  .ft-container1{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 22px;
+    gap:12px;
+  }
+  .ft-container1 img{
+    width: 45%;
+  }
+  .ft-container1 .social-container {
+    margin-top: 7px;
+    flex-grow: 1;
+}
+
+  .list span{
+    display: flex;
+    border-bottom: 2px solid white;
+    padding:15px 0 2px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .list span p{
+    margin:0;
+    font-size: 22px;
+    border: none;
+  }
+  .list span svg{
+    display: block;
+    width: 30px;
+    height: 22px;
+  }
+  .list span button{
+    display: block;
+    background: none;
+    border: none;
+    color:white;
+    cursor: pointer;
+  }
+  
+  .list{
+    padding-top: 0;
+  }
+  .ft-container5 ul{
+    display: block;
+  }
+  .list li a{
+    font-size: 16px;
+  }
+}

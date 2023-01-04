@@ -1,0 +1,129 @@
+.home-products{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.service-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5px 0 15px 0;
+    
+}
+.service-title > div{
+    width:146px;
+    height: 3px;
+    background-color: #38387f;
+}
+
+.service-title > h1{
+    margin: 0;
+    font-size: 29px;
+}
+
+.home-products-main-container{
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    background-color: rgba(217, 229, 227, 1);
+    padding: 40px 0;
+    /* align-items: center; */
+}
+.homep-container1{
+
+    max-width: 33vw;
+    margin-right: 81px;
+    min-width: 350px;
+    border-radius: 13px;
+    
+   
+}
+.stethoscopeimg{
+    width: 100%;
+}
+.homep-container1 .img-container{
+    background-color: rgba(219, 244, 255, 1);
+    border-radius: 13px;
+}
+
+.homep-container1 .img-container .img-footer{
+    
+    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+    
+    
+}
+.img-footer{
+    padding: 2px 23px;
+    height: 43px;
+    margin: 0;
+}
+.img-footer img{
+    width: 55px;
+}
+.img-footer p{
+    margin:auto 0 ;
+    font-size: 18px;
+}
+.img-footer .img1{
+    width:55px ;
+    height: 33px;
+}
+.img-footer .img2{
+    width:55px ;
+    height: 42px;
+    
+
+}
+
+.homep-container1{
+    background: url(../../../../public/stethscope.png);
+    box-shadow: 0px 1px 8px #000000bd;
+}
+.homep-container2 button{
+    background-color: rgba(19, 72, 112, 1);
+    color:white ;
+    border: none;
+}
+
+@media screen and (min-width:600px){
+    .prod-mblcontainer{display: none;}
+    .home-products-main-container{display: flex;}
+  }
+@media screen and (max-width:600px){
+   .home-products{
+    margin-top: 0;
+   }
+   .service-title{
+    margin-bottom: 0;
+    /* margin-top: 15px; */
+   }
+   .product-title{
+    margin: 0;
+    margin-top: -11px;
+}
+
+   .service-title > h1 {
+    
+    font-size: 23px;
+}
+
+
+  .home-products-main-container{display: none;}
+  .prod-mblcontainer{display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+  .prod-mblcontainer img{
+    width: 100%;
+    min-height: 414px;
+
+  }
+}

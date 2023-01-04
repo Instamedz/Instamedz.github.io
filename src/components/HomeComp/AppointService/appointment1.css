@@ -1,0 +1,105 @@
+.appointment {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(
+    112.7deg,
+    #1d6daa 14.58%,
+    rgba(115, 168, 209, 0.85) 34.38%,
+    rgba(115, 168, 209, 0.85) 70.83%,
+    #1d6daa 89.58%
+  );
+  width: 100%;
+  height: 503px;
+  color:rgba(19, 72, 112, 1);
+  overflow: hidden;
+  /* text-align: left; */
+}
+
+
+.vector-container1{
+  flex:1;
+  max-width: 30vw;
+  min-width: 20vw;
+  position: relative;
+  
+  /* overflow: hidden; */
+}
+.online-doctor{
+  width: 630px;
+  position: absolute;
+  z-index: 10;
+  
+}
+.vector-icon{
+  position: absolute;
+  z-index: 1;
+}
+
+.vector-submain{
+  display: flex;
+  position: relative;
+}
+.vector-container2{
+    margin-left: 293px;
+    display: flex;
+    /* align-items: center; */
+}
+.vector-container2 > div{
+  margin-top: 35px;
+}
+
+.vector-container2 h1{
+  font-size: 25px;
+}
+.vector-container2 h3{
+  font-size: 18px;
+}
+.app1-service-list li{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:5px 0;
+  padding:5px 2px
+
+}
+.app1-service-list li img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.book-appointment{
+  cursor: pointer;
+  width:200px ;
+  padding:10px 6px;
+  border-radius:6px ;
+  background-color:white;
+  color: rgba(19, 72, 112, 1);
+  font-size: 17px;
+  border: 1px solid rgba(19, 72, 112, 1);
+  box-shadow: 3px 3px 4px #1d6daa ;
+  z-index: 15;
+  display: block;
+  margin:0 auto;
+  margin-top: 50px;
+  
+
+
+}
+.book-appointment:hover{
+  border:1px solid black;
+  box-shadow: 3px 3px 0px #33668e ;
+  transition: ease-in-out 0.3s;
+}
+
+
+.vector-container3{
+  display: flex;
+  align-items: flex-end;
+  overflow: hidden;
+ 
+}
+ 
+@media screen and (max-width:1000px){
+  .appointment{display: none;}
+}
